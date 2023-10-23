@@ -25,7 +25,7 @@ print( )
 print('o numero que pensei foi {}'.format(alfa))
 
 if r == alfa:
-    print('acertou, mizeravi')
+    print('acertou')
     pygame.mixer.music.load('ex022m.mp3')
     pygame.mixer.music.play()
 else:
